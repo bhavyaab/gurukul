@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/gurukul/GurukulWebPart.manifest.json"
         }
       ]
+    },
+    "class-room-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/classRoom/ClassRoomWebPart.js",
+          "manifest": "./src/webparts/classRoom/ClassRoomWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "GurukulWebPartStrings": "lib/webparts/gurukul/loc/{locale}.js"
+    "GurukulWebPartStrings": "lib/webparts/gurukul/loc/{locale}.js",
+    "ClassRoomWebPartStrings": "lib/webparts/classRoom/loc/{locale}.js"
   }
 }
