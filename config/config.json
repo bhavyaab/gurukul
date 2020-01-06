@@ -13,7 +13,6 @@
   },
   "externals": {},
   "localizedResources": {
-    "GurukulWebPartStrings": "lib/webparts/gurukul/loc/{locale}.js",
-    "PersonWebPartStrings": "lib/webparts/person/loc/{locale}.js",
+    "GurukulWebPartStrings": "lib/webparts/gurukul/loc/{locale}.js"
   }
 }
