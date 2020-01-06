@@ -9,10 +9,20 @@
           "manifest": "./src/webparts/gurukul/GurukulWebPart.manifest.json"
         }
       ]
+    },
+    "class-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/class/ClassWebPart.js",
+          "manifest": "./src/webparts/class/ClassWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "GurukulWebPartStrings": "lib/webparts/gurukul/loc/{locale}.js"
+    "GurukulWebPartStrings": "lib/webparts/gurukul/loc/{locale}.js",
+    "PersonWebPartStrings": "lib/webparts/person/loc/{locale}.js",
+    "ClassWebPartStrings": "lib/webparts/class/loc/{locale}.js"
   }
 }
